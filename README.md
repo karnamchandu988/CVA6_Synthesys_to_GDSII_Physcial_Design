@@ -16,7 +16,7 @@
 
 <!-- 🖼️ MAIN IMAGE — paste your GitHub-hosted screenshot URL here (see outputs.md for how) -->
 <p align="center">
-  <img src="<img width="1600" height="786" alt="Image" src="https://github.com/user-attachments/assets/9f580ed7-ea2b-45ce-941d-284a6164d1bb" />" alt="CVA6 Post-Route Block" width="85%">
+  <img src="https://github.com/user-attachments/assets/9f580ed7-ea2b-45ce-941d-284a6164d1bb" alt="CVA6 Post-Route Block" width="85%">
   <br>
   <em>Final routed view of the CVA6 core — see outputs.md for the full screenshot breakdown</em>
 </p>
