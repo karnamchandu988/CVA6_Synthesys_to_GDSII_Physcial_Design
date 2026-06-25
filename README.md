@@ -202,7 +202,7 @@ The full, titled set of screenshots — floorplan, density/congestion maps, the 
 
 ## 👤 Author
 
-**[Your Name]**
+**Karnam Chandra Shekar**
 🔗 [LinkedIn](https://www.linkedin.com/in/karnamchandu988) · [GitHub](https://github.com/karnamchandu988) · [Email](karnamchandu988@gmail.com)
 
 <br>
