@@ -17,7 +17,7 @@ This file documents every stage of the **CVA6 RISC-V Core — Synthesis-to-GDSII
 
 Zoomed-out view after standard cell placement, showing the relationship between the dense central cell region and the macro columns on either side.
 
-![Screenshot 2 - Full-Chip Placement](https://github.com/user-attachments/assets/dd14f86f-831c-41a5-afb5-d9b8cef04474)
+![Screenshot 2 - Full-Chip Placement](https://github.com/user-attachments/assets/021cf4bc-7563-42bd-9317-079bc519b48c)
 
 ---
 
@@ -70,12 +70,52 @@ Final cell count report — **219,738 leaf cells**, **24 sequential macros**, 23
 
 ---
 
-## Screenshot 9 — Sign-off Report: Area & Design Rule Summary
+## Screenshot 9 — Sign-off Report: Area Summary
 
-Final area breakdown (cell area, macro area, net length) and design rule summary — **225,692 total nets, 0 nets with violations, 0 max-transition and 0 max-cap violations.**
+Final area utilization report showing the breakdown of standard-cell area, macro area, physical-only cell area, and total net length after successful routing and sign-off.
 
-![Screenshot 9 - Area & DRC Report](https://github.com/user-attachments/assets/219a6b57-4c65-4ce8-ac1c-685a80fbed27)
+![Screenshot 9 - Area Report](https://github.com/user-attachments/assets/de434896-48f4-4ba3-8dc1-2232ec65e8dc)
 
 ---
+## Screenshot 10 — Global Timing Report
 
-*(Add Screenshots 11–20 here in the same format as you upload the rest.)*
+Final post-route global timing summary generated after sign-off optimization. The design achieves **no hold violations**, with only **5 negligible setup violations** (2 reg-to-reg and 3 input-to-register paths), each reporting a worst negative slack of approximately **-0.00 ns**, indicating timing closure is effectively achieved within reporting precision.
+
+![Screenshot 10 - Global Timing Report](https://github.com/user-attachments/assets/906b6b56-aa2b-443a-91e8-92386cdae3c6)
+
+---
+## Screenshot 11 — Design Rule Violation (DRV) Summary
+
+Final design rule verification report after sign-off optimization. The design reports **zero design rule violations**, including **0 max transition**, **0 max capacitance**, **0 min capacitance**, and **0 minimum pulse width** violations, confirming compliance with all electrical design constraints.
+
+![Screenshot 11 - Design Rule Violation Summary](https://github.com/user-attachments/assets/e95261ea-8569-4b30-a1f0-166c2bd33989)
+
+---
+## Screenshot 12 — DRC Verification Report
+
+Final Design Rule Check (DRC) verification confirming a **clean routed database**. The report shows **0 DRC violations**, **0 antenna violations**, and no extraction or connectivity issues across **225,289 routed nets**, indicating the layout satisfies all physical design rule requirements.
+
+![Screenshot 12 - DRC Verification Report](https://github.com/user-attachments/assets/1c8a8de7-d878-4e29-9d4f-2efaa43d1229)
+
+---
+## Screenshot 13 — LVS / Connectivity Verification Report
+
+Final layout connectivity verification confirming a **clean LVS-style verification**. The report indicates **0 short violations**, **0 open nets**, and **0 floating route violations** across **225,692 input nets**, demonstrating correct routing connectivity throughout the design.
+
+![Screenshot 13 - LVS Verification Report](https://github.com/user-attachments/assets/99d9513a-84f1-43bb-836f-f64bf90888c3)
+
+---
+## Screenshot 14 — Placement Legality Report
+
+Final placement legality check confirming a **fully legal design**. The report shows **0 violations** for overlap, spacing rules, cell-on-site placement, legal orientation, and power-grid (PG) DRC checks, verifying that all standard cells satisfy placement legality requirements before sign-off.
+
+![Screenshot 14 - Placement Legality Report](https://github.com/user-attachments/assets/9ff98737-539c-43e2-b5be-7d40c4984e8f)
+
+---
+## Screenshot 15 — Final GDSII Layout
+
+Final **GDSII database** generated after successful completion of the physical design flow. The layout represents the tape-out-ready implementation of the **CVA6 RISC-V core**, incorporating all floorplanning, placement, clock tree synthesis, routing, and sign-off optimizations into the final manufacturable design database.
+
+![Screenshot 15 - Final GDSII Layout](https://github.com/user-attachments/assets/f6fc64ac-87d3-4f69-a3a6-54a625eacfa3)
+
+---
