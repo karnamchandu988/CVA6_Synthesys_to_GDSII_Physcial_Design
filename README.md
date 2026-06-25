@@ -96,7 +96,7 @@ RTL synthesized in DC using custom-written SDC constraints and scripts (not refe
 
 Macro placement for all 24 SRAM macros, followed by power/ground mesh and routing grid setup.
 
-<img src="PASTE_URL_HERE" alt="Floorplan" width="80%">
+<img src="https://github.com/user-attachments/assets/5ad685e3-2145-4282-a53c-576771978ecf" alt="Floorplan" width="80%">
 
 </details>
 
@@ -106,7 +106,7 @@ Macro placement for all 24 SRAM macros, followed by power/ground mesh and routin
 
 Standard cell placement around the fixed macros — this is where the density problem first became visible.
 
-<img src="PASTE_URL_HERE" alt="Placement" width="80%">
+<img src="https://github.com/user-attachments/assets/79db9272-59f9-4193-83e7-a5e41fbf9cd8" alt="Placement" width="80%">
 
 </details>
 
@@ -116,7 +116,7 @@ Standard cell placement around the fixed macros — this is where the density pr
 
 Partial blockages added around macro boundaries + cell padding applied to relieve local density — see the dedicated section below.
 
-<img src="PASTE_URL_HERE" alt="Congestion Fix" width="80%">
+<img src="https://github.com/user-attachments/assets/570f2061-85bf-4299-b3f3-aac9fe4d7ba6" alt="Congestion Fix" width="80%">
 
 </details>
 
@@ -126,7 +126,7 @@ Partial blockages added around macro boundaries + cell padding applied to reliev
 
 20-level clock tree built to keep skew and insertion delay under control across the macro-heavy block.
 
-<img src="PASTE_URL_HERE" alt="CTS" width="80%">
+<img src="https://github.com/user-attachments/assets/d9888dff-19e6-4c04-bf14-c219a37ab035" alt="CTS" width="80%">
 
 </details>
 
@@ -136,7 +136,7 @@ Partial blockages added around macro boundaries + cell padding applied to reliev
 
 Full routing completed with 0 DRC violations and clean placement legality.
 
-<img src="PASTE_URL_HERE" alt="Routing" width="80%">
+<img src="https://github.com/user-attachments/assets/140e53b2-ed99-4e05-80dd-b481704a6dbf" alt="Routing" width="80%">
 
 </details>
 
@@ -203,7 +203,7 @@ The full, titled set of screenshots — floorplan, density/congestion maps, the 
 ## 👤 Author
 
 **[Your Name]**
-🔗 [LinkedIn](#) · [GitHub](#) · [Email](#)
+🔗 [LinkedIn](https://www.linkedin.com/in/karnamchandu988) · [GitHub](https://github.com/karnamchandu988) · [Email](karnamchandu988@gmail.com)
 
 <br>
 
